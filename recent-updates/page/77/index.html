@@ -36,7 +36,11 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 
 /*# sourceURL=wp-block-library-inline-css */
-</style><style id="wp-block-heading-inline-css">
+</style><style id="wp-block-footnotes-inline-css">
+.editor-styles-wrapper,.entry-content{counter-reset:footnotes}a[data-fn].fn{counter-increment:footnotes;display:inline-flex;font-size:smaller;text-decoration:none;text-indent:-9999999px;vertical-align:super}a[data-fn].fn:after{content:"[" counter(footnotes) "]";float:left;text-indent:0}
+/*# sourceURL=/wp-includes/blocks/footnotes/style.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
 h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/heading/style.min.css */
 </style>
@@ -247,6 +251,56 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<main id="main" class="site-main">
 
 			
+<article id="post-832" class="post-832 post type-post status-publish format-standard hentry category-announcement category-sensei">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/in-a-world-where-strength-is-ranked/" rel="bookmark"><time class="entry-date published" datetime="2024-10-13T09:42:25+07:00">13/10/2024</time><time class="updated" datetime="2025-10-21T22:07:17+07:00">21/10/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/in-a-world-where-strength-is-ranked/" rel="bookmark">In a world where strength is ranked, I, a high school teacher, was transported along with my students and rose from a mere side character to the rank of Sword Saint (LN)</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p class="has-text-align-center has-large-font-size"><strong>VOLUME 1</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/714yoTX5IRL._SL1500_.jpg" alt=""></figure>
+
+
+
+<p><a href="https://www.amazon.co.jp/-/en/%E9%80%86%E9%9C%A7-ebook/dp/B0CB5C3DHH/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=&amp;sr="><strong>Amazon Link</strong></a></p>
+
+
+
+<p><strong>Synopsis:</strong></p>
+
+
+
+<p>Weak abilities? No problem! A teacher with unmatched swordsmanship dominates a fantasy world with nothing but his blade!</p>
+
+
+
+<p>–[The Strongest Rankings]<br>In this world, people’s strength is ranked by a system, and high school teacher Shigeto Kusunoki found himself transported there along with his students.</p>
+
+
+
+<p><br>While his students gained overpowered abilities, Shigeto’s powers were weak, and his rank was among the lowest. Ridiculed by his students, Shigeto tried to adapt to this new world, supported by a priestess named Mirei.… <a href="/in-a-world-where-strength-is-ranked/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-832 -->
+
+<article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-englishtl category-merchant">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-exiled-merchant-volume-1-chapter-12/" rel="bookmark"><time class="entry-date published" datetime="2024-10-12T00:01:00+07:00">12/10/2024</time><time class="updated" datetime="2024-09-27T22:54:24+07:00">27/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-exiled-merchant-volume-1-chapter-12/" rel="bookmark">The Exiled Merchant Volume 1 Chapter 12</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p>Chapter 12: The Hero’s Party<br> </p>
+
+
+
+<p> <br>Gordon, the leader of the goat tribe left in charge by Raiga, was a moderate within the Beast King’s army. He took a tolerant stance towards the purple potion and thus wasn’t eliminated by Trao.<br> <br>Known for his intelligence among the beastmen, Gordon didn’t openly try to stop Raiga’s rebellion. However, foreseeing its failure, he volunteered to stay behind and didn’t join the rebel army.<br> <br>He had already secretly informed the Demon Lord about Raiga’s rebellion.… <a href="/the-exiled-merchant-volume-1-chapter-12/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-802 -->
+
 <article id="post-792" class="post-792 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
 		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-4-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-10-11T00:01:00+07:00">11/10/2024</time><time class="updated" datetime="2024-09-27T22:43:45+07:00">27/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-4-part-2/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1 Chapter 4 part 2</a></h2>	</header><!-- .entry-header -->
@@ -355,32 +409,6 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 	
 </article><!-- #post-818 -->
 
-<article id="post-807" class="post-807 post type-post status-publish format-standard hentry category-englishtl category-oshi">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/my-oshis-enemy-volume-1-chapter-2-5/" rel="bookmark"><time class="entry-date published" datetime="2024-10-03T00:01:00+07:00">03/10/2024</time><time class="updated" datetime="2024-09-28T00:01:56+07:00">28/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/my-oshis-enemy-volume-1-chapter-2-5/" rel="bookmark">My Oshi’s Enemy Volume 1 Chapter 2.5</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>Interlude: The Castle of Justice and the Den of Evil<br> </p>
-
-
-
-<p> <br>“I’m sorry, Hina.”<br> <br>“?”<br> <br>Rui Amaken, who had returned to the 10th Branch of [White Scales of Cyclic Protection : Prim Libra], dropped her shoulders in front of her best friend.<br> <br>Her best friend, Hinata, who had received the apology, tilted her head in confusion.<br> <br>A large amount of food was laid out before her as she sat in a chair in the cafeteria.… <a href="/my-oshis-enemy-volume-1-chapter-2-5/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-807 -->
-
-<article id="post-798" class="post-798 post type-post status-publish format-standard hentry category-englishtl category-merchant">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-exiled-merchant-volume-1-chapter-10-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-10-02T00:01:00+07:00">02/10/2024</time><time class="updated" datetime="2024-09-27T22:52:04+07:00">27/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-exiled-merchant-volume-1-chapter-10-part-2/" rel="bookmark">The Exiled Merchant Volume 1 Chapter 10 part 2</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>The battle between the Griffin and the participants lasted long, but with our superior numbers, even this formidable magical beast eventually succumbed.<br> <br>The participants raised a victory cry after defeating the powerful enemy.<br> <br>Amidst this, Trao approached the knight who had bravely fought the Griffin first.<br> <br>The knight, thinking he would be praised, smiled with a flushed face.<br> <br>“I’m sorry, but you’re disqualified,”<br> <br>Trao told the knight matter-of-factly.<br> <br>“Why?! I fought that Griffin on equal terms!”… <a href="/the-exiled-merchant-volume-1-chapter-10-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-798 -->
-
 	<nav class="navigation pagination" aria-label="Posts pagination">
 		<h2 class="screen-reader-text">Posts pagination</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="/recent-updates/page/76/"><svg class="icon icon-arrow-left" aria-hidden="true" role="img"> <use href="#icon-arrow-left" xlink:href="#icon-arrow-left"></use> </svg><span class="screen-reader-text">Previous page</span></a>
@@ -410,6 +438,14 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<h2 class="widget-title">Recent Updates</h2><nav aria-label="Recent Updates">
 		<ul>
 											<li>
+					<a href="/a-teacher-but-im-feared-as-a-witch-volume-3-chapter-4-part-1/">A Teacher, But I’m Feared as a Witch Volume 3 chapter 4 part 1</a>
+											<span class="post-date">06/01/2026</span>
+									</li>
+											<li>
+					<a href="/misunderstood-villainess-volume-1-chapter-7-part-2/">Misunderstood Villainess Volume 1 Chapter 7 part 2</a>
+											<span class="post-date">06/01/2026</span>
+									</li>
+											<li>
 					<a href="/spirit-master-who-is-volume-2-chapter-6-part-7/">Spirit Master Who Is Volume 2 Chapter 6 part 7</a>
 											<span class="post-date">05/01/2026</span>
 									</li>
@@ -420,14 +456,6 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 											<li>
 					<a href="/c-level-magic-student-volume-2-chapter-7-part-2/">C-level magic student Volume 2 Chapter 7 part 2</a>
 											<span class="post-date">04/01/2026</span>
-									</li>
-											<li>
-					<a href="/mind-reading-detective-volume-1-chapter-2-part-14/">Mind-Reading Detective Volume 1 Chapter 2 part 14</a>
-											<span class="post-date">04/01/2026</span>
-									</li>
-											<li>
-					<a href="/my-oshis-enemy-volume-2-chapter-7/">My Oshi’s Enemy Volume 2 Chapter 7</a>
-											<span class="post-date">03/01/2026</span>
 									</li>
 					</ul>
 
