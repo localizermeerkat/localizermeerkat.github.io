@@ -52,6 +52,10 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 :root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}
 /*# sourceURL=/wp-includes/blocks/image/theme.min.css */
 </style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=/wp-includes/blocks/list/style.min.css */
+</style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/paragraph/style.min.css */
@@ -79,10 +83,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id="global-styles-inline-css">
 :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 /*# sourceURL=global-styles-inline-css */
-</style>
-<style id="core-block-supports-inline-css">
-.wp-elements-9a6d70d7c1e10aca1dfe522fe65980b5 a:where(:not(.wp-element-button)){color:#222222;}.wp-elements-922b8dbad16d8ec64f30e487fc361bae a:where(:not(.wp-element-button)){color:#222222;}
-/*# sourceURL=core-block-supports-inline-css */
 </style>
 
 <style id="classic-theme-styles-inline-css">
@@ -251,219 +251,176 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<main id="main" class="site-main">
 
 			
-<article id="post-519" class="post-519 post type-post status-publish format-standard hentry category-spirit-master">
+<article id="post-273" class="post-273 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/spirit-master-who-is-volume-1-illustrations/" rel="bookmark"><time class="entry-date published" datetime="2024-08-15T14:11:11+07:00">15/08/2024</time><time class="updated" datetime="2026-01-16T04:24:47+07:00">16/01/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/spirit-master-who-is-volume-1-illustrations/" rel="bookmark">Spirit Master Who Is Light Novel Illustrations</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-1/" rel="bookmark"><time class="entry-date published" datetime="2024-06-26T00:01:00+07:00">26/06/2024</time><time class="updated" datetime="2024-06-22T14:09:53+07:00">22/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-1/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 2 part 1</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p style="font-size:36px"><strong>Volume 1</strong></p>
+		<h3 class="wp-block-heading">Chapter Two: Let’s Become Adventurers!</h3>
 
 
 
-<p style="font-size:2px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="/the-c-rank-magic-student-light-novel-illustrations/"><img decoding="async" src="https://m.media-amazon.com/images/I/817ZTpkfbuL._SL1500_.jpg" alt=""></a></figure>
-
-
-
-<p style="font-size:2px">This is the standard Lorem Ipsum passage, used as placeholder text since the 1500s.… <a href="/spirit-master-who-is-volume-1-illustrations/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/spirit-master-who-is-volume-1-illustrations/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/spirit-master-who-is-volume-1-illustrations/2/" class="post-page-numbers"><span class="page-number">2</span></a> <a href="/spirit-master-who-is-volume-1-illustrations/3/" class="post-page-numbers"><span class="page-number">3</span></a></div>	</div><!-- .entry-content -->
+<p> <br>The one and only absolute Sun God, Zeuradia, shone brightly over the lands of the Islaria continent today as well.<br> <br>It was the season when Spring Spirit, Spriggle, blessed all the inhabitants of Islaria. Ur was—<br> <br>“…dying.”<br> <br>Somehow, once again, he was on the brink of death.<br> <br>This wasn’t the dangerous “outside” where monsters lurked. It was supposed to be the Great Sin City-State of Greed, protected by the divine power of the Sun God’s “Barrier of the Sun.”… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-519 -->
+</article><!-- #post-273 -->
 
-<article id="post-515" class="post-515 post type-post status-publish format-standard hentry category-announcement category-spirit-master">
+<article id="post-261" class="post-261 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/spirit-master-who-is-thought-to-be-hiding-his-true-ability-is-actually-always-fighting-very-seriously-ln/" rel="bookmark"><time class="entry-date published" datetime="2024-08-15T14:07:18+07:00">15/08/2024</time><time class="updated" datetime="2026-01-16T04:20:47+07:00">16/01/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/spirit-master-who-is-thought-to-be-hiding-his-true-ability-is-actually-always-fighting-very-seriously-ln/" rel="bookmark">Spirit Master Who Is Thought to Be Hiding His True Ability Is Actually Always Fighting Very Seriously (LN)</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-5/" rel="bookmark"><time class="entry-date published" datetime="2024-06-24T00:01:00+07:00">24/06/2024</time><time class="updated" datetime="2024-06-22T14:09:48+07:00">22/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-5/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 1 part 5</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p class="has-text-align-center has-large-font-size"><strong>VOLUME 1</strong></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/817ZTpkfbuL._SL1500_.jpg" alt=""></figure>
-
-
-
-<p><a href="https://www.amazon.co.jp/-/en/%E3%82%A2%E3%83%A9%E3%82%B5%E3%83%A0/dp/4824007585"><strong>Amazon Link</strong></a></p>
-
-
-
-<p><strong>Synopsis:</strong></p>
-
-
-
-<p>The Spirit Mage Everyone Thinks is Hiding His True Power, Actually Always Fights with Everything He’s Got</p>
-
-
-
-<p>He’s Not Refusing to Summon His Contracted Spirits, He Just Doesn’t Have Any! — This Spirit Mage is Still Too Strong!?<br>A Fantasy of Misunderstood Overpowered Heroism, Surpassing Even the Strongest Through Effort Alone!</p>
-
-
-
-<p>“Spirit Mages” fight evil threats to humanity by borrowing the power of contracted spirits.<br>Roak Aleas, a second-year student at Eutrea Academy, the training institution for Spirit Mages, possesses skills ranking second in his year.… <a href="/spirit-master-who-is-thought-to-be-hiding-his-true-ability-is-actually-always-fighting-very-seriously-ln/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<p>It’s dangerous to rob a Great Fang Boar of its sense of smell.<br> <br>“Wh-whaaaaaa!?!”<br> <br>Ur screamed as a huge tusk passed over his head at an incredible speed.<br> <br>The boar was rampaging. Unable to tolerate the strange smell of the perfume, it thrashed around wildly. Each time, its long tusks gouged the ground, scraped walls, and pierced columns.<br> <br>This is worse than when it was sane!!!<br> <br>Ur’s face contorted as he realized the result of his reckless plan.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-5/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-515 -->
+</article><!-- #post-261 -->
 
-<article id="post-464" class="post-464 post type-post status-publish format-standard hentry category-englishtl category-sss">
+<article id="post-255" class="post-255 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-c-rank-magic-student-volume-1-chapter-1-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-08-14T00:01:00+07:00">14/08/2024</time><time class="updated" datetime="2024-08-13T14:16:53+07:00">13/08/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-c-rank-magic-student-volume-1-chapter-1-part-2/" rel="bookmark">C-level magic student Volume 1  Chapter 1 part 2</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-4/" rel="bookmark"><time class="entry-date published" datetime="2024-06-22T00:01:00+07:00">22/06/2024</time><time class="updated" datetime="2024-06-20T22:35:42+07:00">20/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-4/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 1 part 4</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>It had been two years since Shion enrolled in the Magic Academy. In that time, the children his age, who had started learning magic much later than he did, had quickly improved their skills.<br> <br>Despite all his efforts over those two years, Shion could never catch up to his peers. In fact, the gap between them only widened.<br> <br>“Maybe Shion will finally realize he has no talent for magic,”<br> <br>his parents thought, wondering daily how they would comfort their son when his dreams were shattered by reality.… <a href="/the-c-rank-magic-student-volume-1-chapter-1-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<p>The temple was filled with painful silence and the deep, dark power of the abyss. At its center, two humans stood.<br> <br>One was a tall girl praying silently in the light. Her long, wavy silver hair framed her beautiful face and mature body, an unsettling mix that captivated men.<br> <br>The other was a man in his mid-thirties watching her from the back of the temple. He was emaciated, his eyes severe behind his glasses.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-4/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-464 -->
+</article><!-- #post-255 -->
 
-<article id="post-430" class="post-430 post type-post status-publish format-standard hentry category-englishtl category-merchant">
+<article id="post-253" class="post-253 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-exiled-merchant-volume-1-chapter-7/" rel="bookmark"><time class="entry-date published" datetime="2024-08-13T00:01:00+07:00">13/08/2024</time><time class="updated" datetime="2024-08-01T20:52:00+07:00">01/08/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-exiled-merchant-volume-1-chapter-7/" rel="bookmark">The Exiled Merchant Volume 1 Chapter 7</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-3/" rel="bookmark"><time class="entry-date published" datetime="2024-06-20T00:01:00+07:00">20/06/2024</time><time class="updated" datetime="2024-06-20T22:35:21+07:00">20/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-3/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 1 part 3</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>Chapter 7: The Monsters’ Money-Making Scheme<br> </p>
-
-
-
-<p> <br>“Eeeek!”<br> <br>The soldier fighting to protect the town from monsters was in a dire situation.<br> <br>His opponent was a Chimera. A powerful monster with a lion’s head, a goat’s body, and a snake’s tail. Not only was it strong, but it was also highly intelligent. It saw right through the soldier’s intentions and cornered him, toying with him even though it could kill him at any moment.… <a href="/the-exiled-merchant-volume-1-chapter-7/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<p>A vast hall lay before him.<br> <br>Ur realized he had reached the deepest level of the labyrinth, his destination. Even without observation, it was obvious due to the blatant “mark” present.<br> <br>There floated a gigantic crystal in the center of the hall.<br> <br>Similar to the magic stones obtainable from monsters but different—this crystal emitted a brilliant radiance. This place where Ur stood was the source and driving force behind the labyrinth’s transformation into a labyrinth—what was known as the “Core Magic Stone.”… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-3/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-430 -->
+</article><!-- #post-253 -->
 
-<article id="post-461" class="post-461 post type-post status-publish format-standard hentry category-englishtl category-sss">
+<article id="post-250" class="post-250 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-c-rank-magic-student-volume-1-chapter-1-part-1/" rel="bookmark"><time class="entry-date published" datetime="2024-08-12T00:01:00+07:00">12/08/2024</time><time class="updated" datetime="2024-08-13T14:13:33+07:00">13/08/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-c-rank-magic-student-volume-1-chapter-1-part-1/" rel="bookmark">C-level magic student Volume 1  Chapter 1 part 1</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-06-17T00:01:00+07:00">17/06/2024</time><time class="updated" datetime="2024-06-15T00:00:06+07:00">15/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-2/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 1 part 2</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>Chapter 1: Shion Ichinose<br> </p>
-
-
-
-<p> <br>In the practice room of Gilbert Royal Crofford Magic Academy, Lina Restia, a faculty member, was intently observing the actions of a male student.<br> <br>The student’s name was Shion Ichinose. He was a student in Restia’s second-year Class C.<br> <br>He slowly raised his right hand and pointed his palm straight at a target 18.4 meters away.<br> <br>Then, a white, mist-like light began to emanate from his outstretched palm.… <a href="/the-c-rank-magic-student-volume-1-chapter-1-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<p> <br>It seemed the fastener had exceeded its limit. The thought of entering a labyrinth with something like this and realizing it at the last moment was terrifying. Ur had seriously felt like he had just escaped death. While he was left speechless, the girl who had saved his life continued to inspect the warehouse with sharp eyes.<br> <br>“The maintenance here is worse than I imagined…… Now then.”<br> <br>After finishing her inspection, she smiled at Ur again.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-461 -->
+</article><!-- #post-250 -->
 
-<article id="post-422" class="post-422 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
+<article id="post-247" class="post-247 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-6/" rel="bookmark"><time class="entry-date published" datetime="2024-08-11T00:01:00+07:00">11/08/2024</time><time class="updated" datetime="2024-08-01T11:24:00+07:00">01/08/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-6/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 2 part 6</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-1/" rel="bookmark"><time class="entry-date published" datetime="2024-06-16T00:01:00+07:00">16/06/2024</time><time class="updated" datetime="2024-06-15T00:00:00+07:00">15/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-1/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1  Chapter 1 part 1</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>“I wonder…”<br> <br>Ur responded absentmindedly to Shizuku’s question.<br> <br>Honestly, the whole idea of adventurers training seriously seemed mismatched. Adventurers were more about being spontaneous. Training from scratch in a serious manner didn’t seem right! Perhaps Ur still viewed adventurers through a biased lens.<br> <br>“Hey, old man, stop messing around!! No one cares about your talk!”<br> <br>But just as Ur was affirming his biased view, his classmate next to him erupted. It was noisy, but Ur nodded along.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-2-part-6/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<h1 class="wp-block-heading">Chapter 1: Ash, Gold, and Silver</h1>
+
+
+
+<h2 class="wp-block-heading">The Era of Labyrinth Proliferation</h2>
+
+
+
+<p> <br><strong>Islaria Continent</strong><br> <br><strong>Great Sin City-State of Greed</strong><br> </p>
+
+
+
+<p> <br>From the depths of the earth, labyrinths crawled up like snakes through the soil, spilling monsters into the world. Humanity, once boasting great prosperity, lost a significant portion of its territories. Forced into limited lands, humanity, with its diverse races, relied on higher beings—the spirits—and the priests who wielded their powers for survival.<br> <br>In this world, Ur bore the status of a “Nameless One.”… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-chapter-1-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-422 -->
+</article><!-- #post-247 -->
 
-<article id="post-454" class="post-454 post type-post status-publish format-standard hentry category-englishtl category-sss">
+<article id="post-241" class="post-241 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-c-rank-magic-student-volume-1-prologue/" rel="bookmark"><time class="entry-date published" datetime="2024-08-10T15:35:27+07:00">10/08/2024</time><time class="updated" datetime="2024-08-13T14:13:16+07:00">13/08/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-c-rank-magic-student-volume-1-prologue/" rel="bookmark">C-level magic student Volume 1 prologue</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-prologue/" rel="bookmark"><time class="entry-date published" datetime="2024-06-14T23:45:37+07:00">14/06/2024</time><time class="updated" datetime="2024-06-15T00:28:24+07:00">15/06/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-prologue/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1 Prologue</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>Prologue</p>
+		<p> <br><strong>Prologue</strong><br> </p>
 
 
 
-<p> </p>
-
-
-
-<p> </p>
-
-
-
-<p>In this world, there exists an energy called “mana.”</p>
-
-
-
-<p>Mana flows through the earth and air of this world, and also courses through the bodies of many living beings.</p>
-
-
-
-<p>The people of this world extract mana from natural objects like rocks and crystals where it accumulates, and use this energy in their daily lives.</p>
-
-
-
-<p>For example, mana is used to light lamps, refrigerate fresh food, power transportation like trains, and run machinery in factories.… <a href="/the-c-rank-magic-student-volume-1-prologue/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+<p>“That’s a lie. That’s definitely a lie. What honey, you idiot?”<br> <br>The boy cursed bitterly at the words that suddenly popped into his head.<br> <br>Where had he heard such words? Was it when the tavern’s drunks were grumbling? Or was it when his father bought a book, never opened it, and left it for his sister to read when she was bored? He couldn’t remember.<br> <br>His head was fuzzy. His throat hurt from being too dry.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-prologue/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-454 -->
+</article><!-- #post-241 -->
 
-<article id="post-449" class="post-449 post type-post status-publish format-standard hentry category-sss">
+<article id="post-236" class="post-236 post type-post status-publish format-standard hentry category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-c-rank-magic-student-light-novel-illustrations/" rel="bookmark"><time class="entry-date published" datetime="2024-08-10T15:33:17+07:00">10/08/2024</time><time class="updated" datetime="2025-06-02T17:19:28+07:00">02/06/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-c-rank-magic-student-light-novel-illustrations/" rel="bookmark">C-level magic student Light Novel Illustrations</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/" rel="bookmark"><time class="entry-date published" datetime="2024-06-14T23:37:07+07:00">14/06/2024</time><time class="updated" datetime="2025-04-07T16:37:07+07:00">07/04/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/" rel="bookmark">Thus, the Boy Runs Through the  Labyrinth Light Novel Illustrations</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p style="font-size:36px"><strong>Volume 1</strong></p>
+		<p class="has-large-font-size"><strong>Volume 1</strong></p>
 
 
 
-<p style="font-size:2px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<figure class="wp-block-image size-large"><a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/"><img decoding="async" src="https://m.media-amazon.com/images/I/815IvKy9x8L._SL1500_.jpg" alt=""></a></figure>
 
 
 
-<figure class="wp-block-image size-large"><a href="/the-c-rank-magic-student-light-novel-illustrations/"><img decoding="async" src="https://m.media-amazon.com/images/I/811Bu1NKZ5L._SL1500_.jpg" alt=""></a></figure>
-
-
-
-<p style="font-size:2px">This is the standard Lorem Ipsum passage, used as placeholder text since the 1500s.… <a href="/the-c-rank-magic-student-light-novel-illustrations/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/the-c-rank-magic-student-light-novel-illustrations/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/the-c-rank-magic-student-light-novel-illustrations/2/" class="post-page-numbers"><span class="page-number">2</span></a></div>	</div><!-- .entry-content -->
+<p style="font-size:1px">Nichts, nothing, nada, rien, niente, nichts, ничего, niets, 何もない, niente, nichts, nada, ingenting, τίποτα, ekkert, ništa, שום, שום דבר, שום דבר, 아무것도, niets, nie, ingenting, nichts, nada, nus, nulla, nus, haug, kitu, wala, ekkert, hiç, ingenting, nincs, nic, ничего, hiçbir şey, wala, nekaj, nič, nič, nalang, scil, ne, mitään, na, niks, нищо, nič, nič, ništa, niets, heç, hiç nə, astag, tut, שום, нічого, nič, ничего, hiçbiri, méiyǒu, klum, scile, nada, ništa, ingenting, semmi, mitään, ei mitään, haug.… <a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/thus-the-boy-runs-through-the-labyrinth-light-novel-illustrations/2/" class="post-page-numbers"><span class="page-number">2</span></a></div>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-449 -->
+</article><!-- #post-236 -->
 
-<article id="post-447" class="post-447 post type-post status-publish format-standard hentry category-announcement category-sss">
+<article id="post-234" class="post-234 post type-post status-publish format-standard hentry category-announcement category-labyrinth">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-c-rank-magic-student-who-firmly-believes-hes-sss-rank-ln/" rel="bookmark"><time class="entry-date published" datetime="2024-08-10T15:25:21+07:00">10/08/2024</time><time class="updated" datetime="2026-01-16T01:42:39+07:00">16/01/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-c-rank-magic-student-who-firmly-believes-hes-sss-rank-ln/" rel="bookmark">C-level magic student who thinks he is SSS class (LN)</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-ln/" rel="bookmark"><time class="entry-date published" datetime="2024-06-14T23:35:31+07:00">14/06/2024</time><time class="updated" datetime="2026-01-16T03:52:01+07:00">16/01/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-ln/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth (LN)</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p class="has-text-align-center has-large-font-size"><strong>VOLUME 1</strong></p>
+		<p class="has-text-align-center has-large-font-size">VOLUME 1 – The Greedy Labyrinth and the Debt-Ridden Novice Adventurer</p>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/811Bu1NKZ5L._SL1500_.jpg" alt=""></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/815IvKy9x8L._SL1500_.jpg" alt=""></figure>
 
 
 
-<p><a href="https://www.amazon.co.jp/-/en/nkmr/dp/4824008816/"><strong>Amazon Link</strong></a></p>
+<p><a href="https://www.amazon.co.jp/%E3%81%8B%E3%81%8F%E3%81%97%E3%81%A6%E5%B0%91%E5%B9%B4%E3%81%AF%E8%BF%B7%E5%AE%AE%E3%82%92%E9%A7%86%E3%81%91%E3%82%8B1-%E5%BC%B7%E6%AC%B2%E3%81%AE%E8%BF%B7%E5%AE%AE%E3%81%A8%E5%80%9F%E9%87%91%E3%81%BE%E3%81%BF%E3%82%8C%E3%81%AE%E6%96%B0%E7%B1%B3%E5%86%92%E9%99%BA%E8%80%85-MF%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%82%E3%81%8B%E3%81%AE%E3%81%BE%E3%81%AB/dp/4046835494"><strong>Amazon Link </strong></a></p>
 
 
 
-<p><strong>Synopsis:</strong></p>
+<p><strong>Synopsis :</strong></p>
 
 
 
-<p>“…! (This guy, he’s something else!)” “Hehe (I… I don’t stand a chance!)”</p>
+<p>The boy with nothing stakes everything to challenge the labyrinth—this is the story of an adventure!</p>
 
 
 
-<p>“SSS-rank.” The pinnacle of strength achieved by a great hero 400 years ago. After a long time, someone finally reached the same heights as that legendary figure. That person was none other than Shion Ichinose, an ordinary student at Crawford Magic Academy—</p>
+<p>The Era of Labyrinth Overabundance. Every economy revolves around labyrinth cities, and people dream of conquering labyrinths to grasp glory.<br>The boy, Ur, is in a dire predicament.</p>
 
 
 
-<p>—or so the lie goes. In truth, he was a strange individual who got a thrill out of pretending to be a “powerful person hiding their true abilities”…!… <a href="/the-c-rank-magic-student-who-firmly-believes-hes-sss-rank-ln/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+<ol class="wp-block-list">
+<li>His parents died, leaving behind debts.</li>
+
+
+
+<li>His sister was taken as collateral for the debt.</li>
+
+
+
+<li>To buy her back, he needs 1,000 gold coins.</li></ol>… <a href="/thus-the-boy-runs-through-the-labyrinth-ln/" class="read-more">Read more </a>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-447 -->
+</article><!-- #post-234 -->
 
-<article id="post-411" class="post-411 post type-post status-publish format-standard hentry category-englishtl category-sister-knight">
+<article id="post-147" class="post-147 post type-post status-publish format-standard hentry category-englishtl category-sister-knight">
 		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/after-my-sister-enrolling-volume-1-chapter-4-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-08-09T00:01:00+07:00">09/08/2024</time><time class="updated" datetime="2024-11-12T13:15:09+07:00">12/11/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/after-my-sister-enrolling-volume-1-chapter-4-part-2/" rel="bookmark">After My Sister Enrolling Volume 1 Chapter 4 part 2</a></h2>	</header><!-- .entry-header -->
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/after-my-sister-enrolling-volume-1-chapter-2-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-05-31T00:00:55+07:00">31/05/2024</time><time class="updated" datetime="2024-11-12T13:09:29+07:00">12/11/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/after-my-sister-enrolling-volume-1-chapter-2-part-2/" rel="bookmark">After My Sister Enrolling Volume 1 Chapter 2 Part 2</a></h2>	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
-		<p>3 <br> <br> <br> <br>Finally, we arrived at the defense base in the Ogre’s Great Forest, a massive fortress-like building. <br> <br>There were about a thousand troops from the neighboring Amazoness army stationed there. <br> <br>This fortress was a promise made during the breeding season of the Ogres, aligning with both neighboring countries contributing a hundred thousand troops each.  <br> <br>However, a mere thousand seemed to be sufficient because Amazoness could work as effectively as a hundred soldiers each. … <a href="/after-my-sister-enrolling-volume-1-chapter-4-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+		<p>“If you feel any danger, please escape immediately. It’s preferable not to be noticed by the students. We don’t care about the life or death of the bandits, but if possible, it would be convenient to keep them alive for questioning. There’s a separate retrieval team, so you don’t need to do things like interrogation or collecting loot. Once you incapacitate everyone, come back immediately. Any questions?” <br> <br>“None.” <br> <br>“Oh, um! Can I also go with big brother?” … <a href="/after-my-sister-enrolling-volume-1-chapter-2-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
 
 	
-</article><!-- #post-411 -->
+</article><!-- #post-147 -->
 
 	<nav class="navigation pagination" aria-label="Posts pagination">
 		<h2 class="screen-reader-text">Posts pagination</h2>
@@ -473,8 +430,7 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 <a class="page-numbers" href="/recent-updates/page/85/"><span class="meta-nav screen-reader-text">Page </span>85</a>
 <span aria-current="page" class="page-numbers current"><span class="meta-nav screen-reader-text">Page </span>86</span>
 <a class="page-numbers" href="/recent-updates/page/87/"><span class="meta-nav screen-reader-text">Page </span>87</a>
-<span class="page-numbers dots">…</span>
-<a class="page-numbers" href="/recent-updates/page/92/"><span class="meta-nav screen-reader-text">Page </span>92</a>
+<a class="page-numbers" href="/recent-updates/page/88/"><span class="meta-nav screen-reader-text">Page </span>88</a>
 <a class="next page-numbers" href="/recent-updates/page/87/"><span class="screen-reader-text">Next page</span><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg></a></div>
 	</nav>
 		</main><!-- #main -->
@@ -494,24 +450,24 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<h2 class="widget-title">Recent Updates</h2><nav aria-label="Recent Updates">
 		<ul>
 											<li>
+					<a href="/mastermind-behind-the-scenes-volume-1-chapter-1-part-10/">Mastermind Behind the Scenes Volume 1 Chapter 1 part 10</a>
+											<span class="post-date">18/01/2026</span>
+									</li>
+											<li>
+					<a href="/i-tell-you-monster-volume-2-chapter-2-part-6/">I Tell You Monster. Volume 2 Chapter 2 part 6</a>
+											<span class="post-date">18/01/2026</span>
+									</li>
+											<li>
+					<a href="/a-teacher-but-im-feared-as-a-witch-volume-3-chapter-6-part-3/">A Teacher, But I’m Feared as a Witch Volume 3 chapter 6 part 3</a>
+											<span class="post-date">18/01/2026</span>
+									</li>
+											<li>
 					<a href="/it-turned-into-a-battlefield-volume-1-chapter-2-part-6/">It Turned Into a Battlefield Volume 1 Chapter 2 part 6</a>
 											<span class="post-date">17/01/2026</span>
 									</li>
 											<li>
 					<a href="/c-level-magic-student-volume-2-chapter-8-part-2/">C-level magic student Volume 2 Chapter 8 part 2</a>
 											<span class="post-date">17/01/2026</span>
-									</li>
-											<li>
-					<a href="/a-teacher-but-im-feared-as-a-witch-volume-3-chapter-6-part-2/">A Teacher, But I’m Feared as a Witch Volume 3 chapter 6 part 2</a>
-											<span class="post-date">17/01/2026</span>
-									</li>
-											<li>
-					<a href="/misunderstood-villainess-volume-1-chapter-7-part-3/">Misunderstood Villainess Volume 1 Chapter 7 part 3</a>
-											<span class="post-date">16/01/2026</span>
-									</li>
-											<li>
-					<a href="/my-oshis-enemy-volume-2-chapter-8/">My Oshi’s Enemy Volume 2 Chapter 8</a>
-											<span class="post-date">16/01/2026</span>
 									</li>
 					</ul>
 
