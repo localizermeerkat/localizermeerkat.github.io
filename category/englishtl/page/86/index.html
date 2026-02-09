@@ -38,6 +38,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 /*# sourceURL=wp-block-library-inline-css */
 </style>
+<style id="wp-block-footnotes-inline-css">
+.editor-styles-wrapper,.entry-content{counter-reset:footnotes}a[data-fn].fn{counter-increment:footnotes;display:inline-flex;font-size:smaller;text-decoration:none;text-indent:-9999999px;vertical-align:super}a[data-fn].fn:after{content:"[" counter(footnotes) "]";float:left;text-indent:0}
+/*# sourceURL=/wp-includes/blocks/footnotes/style.min.css */
+</style>
 <style id="wp-block-heading-inline-css">
 h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/heading/style.min.css */
@@ -53,6 +57,14 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-quote-inline-css">
+.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}.wp-block-quote.is-large:where(:not(.is-style-plain)),.wp-block-quote.is-style-large:where(:not(.is-style-plain)){margin-bottom:1em;padding:0 1em}.wp-block-quote.is-large:where(:not(.is-style-plain)) p,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p{font-size:1.5em;font-style:italic;line-height:1.6}.wp-block-quote.is-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-large:where(:not(.is-style-plain)) footer,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{font-size:1.125em;text-align:right}.wp-block-quote>cite{display:block}
+/*# sourceURL=/wp-includes/blocks/quote/style.min.css */
+</style>
+<style id="wp-block-quote-theme-inline-css">
+.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}
+/*# sourceURL=/wp-includes/blocks/quote/theme.min.css */
 </style>
 <style id="wp-block-separator-inline-css">
 @charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
@@ -148,6 +160,11 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 <link rel="icon" href="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-180x180.jpg">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-270x270.jpg">
+<style id="core-block-supports-inline-css">
+.wp-elements-759446e8510b634f9da2b9d011ccc6aa a:where(:not(.wp-element-button)){color:var(--wp--preset--color--vivid-red);}.wp-elements-460e074880b7be65cc5b52ff62d97522 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--vivid-red);}.wp-elements-922b8dbad16d8ec64f30e487fc361bae a:where(:not(.wp-element-button)){color:#222222;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
 </head>
 
 <body class="archive paged category category-englishtl category-9 wp-embed-responsive paged-86 category-paged-86 wp-theme-twentyseventeen hfeed has-sidebar page-two-column colors-dark">
@@ -251,6 +268,106 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<main id="main" class="site-main">
 
 					
+<article id="post-628" class="post-628 post type-post status-publish format-standard hentry category-teacher">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/" rel="bookmark"><time class="entry-date published" datetime="2024-09-14T22:28:02+07:00">14/09/2024</time><time class="updated" datetime="2026-02-03T05:05:56+07:00">03/02/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/" rel="bookmark">A Teacher, But I’m Feared as a Witch Light Novel Illustration</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p style="font-size:36px"><strong>Volume 1</strong></p>
+
+
+
+<p style="font-size:2px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/"><img decoding="async" src="https://m.media-amazon.com/images/I/81UzOC8QikL._SL1500_.jpg" alt=""></a></figure>
+
+
+
+<p style="font-size:2px">This is the standard Lorem Ipsum passage, used as placeholder text since the 1500s.… <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/2/" class="post-page-numbers"><span class="page-number">2</span></a> <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/3/" class="post-page-numbers"><span class="page-number">3</span></a> <a href="/a-teacher-but-im-feared-as-a-witch-light-novel-illustration/4/" class="post-page-numbers"><span class="page-number">4</span></a></div>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-628 -->
+
+<article id="post-626" class="post-626 post type-post status-publish format-standard hentry category-announcement category-teacher">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/transferred-to-another-world-and-became-a-teacher-but-im-feared-as-a-witch-ln/" rel="bookmark"><time class="entry-date published" datetime="2024-09-14T22:21:32+07:00">14/09/2024</time><time class="updated" datetime="2026-02-04T23:20:32+07:00">04/02/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/transferred-to-another-world-and-became-a-teacher-but-im-feared-as-a-witch-ln/" rel="bookmark">Transferred to Another World and Became a Teacher, But I’m Feared as a Witch (LN)</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p class="has-text-align-center has-large-font-size"><strong>VOLUME 1</strong></p>
+
+
+
+<p class="has-text-align-center has-medium-font-size"><strong>Royalty or Nobility Doesn’t Matter, Pay Attention to Class Seriously</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/81UzOC8QikL._SL1500_.jpg" alt=""></figure>
+
+
+
+<p> </p>
+
+
+
+<p><a href="https://www.amazon.co.jp/-/en/%E4%BA%95%E4%B8%8A%E3%81%BF%E3%81%A4%E3%82%8B/dp/4803015651"><strong>Amazon Link </strong></a></p>
+
+
+
+<p><strong>Synopsis :</strong></p>
+
+
+
+<p>The Strongest Rookie Female Teacher Breaks Through the Academy’s Old Ways!?</p>
+
+
+
+<p>Aoi, who was a school teacher, suddenly found herself transported to another world.</p>
+
+
+
+<p>Rescued by a sage of the forest, she was taught magic. Having mastered it in no time, she was recommended to join the world’s largest magic academy as a teacher to further her studies.</p>
+
+
+
+<p>However, the academy was plagued with troublemakers from noble families who even the teachers couldn’t handle…</p>
+
+
+
+<p>“Royalty?… <a href="/transferred-to-another-world-and-became-a-teacher-but-im-feared-as-a-witch-ln/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/transferred-to-another-world-and-became-a-teacher-but-im-feared-as-a-witch-ln/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/transferred-to-another-world-and-became-a-teacher-but-im-feared-as-a-witch-ln/2/" class="post-page-numbers"><span class="page-number">2</span></a></div>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-626 -->
+
+<article id="post-619" class="post-619 post type-post status-publish format-standard hentry category-englishtl category-spirit-master">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/spirit-master-who-is-volume-1-chapter-2-part-1/" rel="bookmark"><time class="entry-date published" datetime="2024-09-14T00:01:00+07:00">14/09/2024</time><time class="updated" datetime="2024-09-02T23:09:18+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/spirit-master-who-is-volume-1-chapter-2-part-1/" rel="bookmark">Spirit Master Who Is Volume 1 Chapter 2 part 1</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p>Chapter 2: Exploring Ancient Ruins<br> </p>
+
+
+
+<p> <br>The day after being forced to attend a mentally draining discussion and an evening banquet I couldn’t refuse, I was walking to the academy with an exhausted expression on my face.<br> <br>“Hey, Rourke, good morning!”<br> <br>“…Yeah.”<br> <br>“You look really tired. What’s wrong?”<br> <br>Gareth, who joined me on the way to our first class, whispered with a worried look on his face.<br> <br>“Ah, it’s just yesterday’s fatigue… As expected, those fancy places don’t suit a commoner like me.”… <a href="/spirit-master-who-is-volume-1-chapter-2-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-619 -->
+
+<article id="post-609" class="post-609 post type-post status-publish format-standard hentry category-englishtl category-sss">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/c-level-magic-student-volume-1-chapter-4-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-09-13T00:01:00+07:00">13/09/2024</time><time class="updated" datetime="2024-09-02T22:48:59+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/c-level-magic-student-volume-1-chapter-4-part-2/" rel="bookmark">C-level magic student Volume 1  Chapter 4 part 2</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p> <br>However, behind Shion stands a person trembling with fear. Beyond his back, there’s someone who needs help.<br> <br>Someone who, if he doesn’t save her, will meet a cruel fate and be killed mercilessly.<br> <br>“(Escaping is — absolutely not an option)”<br> <br>From the start, he never even considered the choice of abandoning the woman behind him and fleeing.<br> <br>But, that said, he has no way to defeat the men in front of him.<br> <br>Even before the question of defeating them or not, Shion has no means to defend against the “Flame Shower” that’s about to be unleashed.… <a href="/c-level-magic-student-volume-1-chapter-4-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-609 -->
+
 <article id="post-600" class="post-600 post type-post status-publish format-standard hentry category-englishtl category-oshi">
 		<header class="entry-header">
 		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/my-oshis-enemy-volume-1-chapter-2-part-3/" rel="bookmark"><time class="entry-date published" datetime="2024-09-12T00:01:00+07:00">12/09/2024</time><time class="updated" datetime="2024-09-02T22:38:10+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/my-oshis-enemy-volume-1-chapter-2-part-3/" rel="bookmark">My Oshi’s Enemy Volume 1 Chapter 2 part 3</a></h2>	</header><!-- .entry-header -->
@@ -329,58 +446,6 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 	
 </article><!-- #post-617 -->
 
-<article id="post-606" class="post-606 post type-post status-publish format-standard hentry category-englishtl category-sss">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/c-level-magic-student-volume-1-chapter-4-part-1/" rel="bookmark"><time class="entry-date published" datetime="2024-09-06T00:01:00+07:00">06/09/2024</time><time class="updated" datetime="2024-09-02T22:47:23+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/c-level-magic-student-volume-1-chapter-4-part-1/" rel="bookmark">C-level magic student Volume 1  Chapter 4 part 1</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>Chapter 4: Red Eyes, the Deadly Blade<br> </p>
-
-
-
-<p> <br>In a dimly lit ghost town lined with abandoned factories, a shadowy figure ran, gasping for breath. It was a woman, her hood pulled low, concealing her eyes.<br> <br>She swung her arms and legs with all her might, running desperately forward as if fleeing from something.<br> <br>“N-No way…”<br> <br>Turning a corner to escape the gaze behind her, she darted into an alley. Mercilessly, it led to a dead end.… <a href="/c-level-magic-student-volume-1-chapter-4-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-606 -->
-
-<article id="post-598" class="post-598 post type-post status-publish format-standard hentry category-englishtl category-oshi">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/my-oshis-enemy-volume-1-chapter-2-part-2/" rel="bookmark"><time class="entry-date published" datetime="2024-09-05T00:01:00+07:00">05/09/2024</time><time class="updated" datetime="2024-09-02T22:35:29+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/my-oshis-enemy-volume-1-chapter-2-part-2/" rel="bookmark">My Oshi’s Enemy Volume 1 Chapter 2 part 2</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p> <br>I quickly check my pocket watch. It’s exactly one minute before the escort vehicle is due to pass through here.<br> <br>This girl still has an frighteningly precise internal clock, I think to myself, amazed.<br> <br>I lower my gaze to the street below and let it slide towards where it leads.<br> <br>And there it is– coming.<br> <br>“Well, shall we go?”<br> <br>“Yes.”<br> <br>We simultaneously throw ourselves off the rooftop and soar through the air.<br> <br>Falling towards the middle of the road, when we’re just a few meters from the ground–<br> <br>–I focus my vision.… <a href="/my-oshis-enemy-volume-1-chapter-2-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-598 -->
-
-<article id="post-584" class="post-584 post type-post status-publish format-standard hentry category-englishtl category-merchant">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/the-exiled-merchant-volume-1-chapter-8-part-3/" rel="bookmark"><time class="entry-date published" datetime="2024-09-04T00:01:00+07:00">04/09/2024</time><time class="updated" datetime="2024-09-02T22:17:51+07:00">02/09/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/the-exiled-merchant-volume-1-chapter-8-part-3/" rel="bookmark">The Exiled Merchant Volume 1 Chapter 8 part 3</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>“That’s right. To get stronger in a short time, you need to do at least this much. I don’t usually buy this potion because it’s not cost-effective, but…”</p>
-
-
-
-<p>Trao smiled pleasantly.<br> <br>“It’s cheap for your sake.”<br> <br>‘…What’s this? I’m not happy at all. I wish he’d say such words when giving a more thoughtful gift.’<br> <br>“Oh, don’t worry. This isn’t the only one. I’ve prepared plenty.”<br> <br>“Plenty?”<br> <br>‘I felt like I’d been sentenced to death.’… <a href="/the-exiled-merchant-volume-1-chapter-8-part-3/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-584 -->
-
-<article id="post-565" class="post-565 post type-post status-publish format-standard hentry category-englishtl category-sister-knight">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/after-my-sister-enrolling-volume-1-chapter-4-part-5/" rel="bookmark"><time class="entry-date published" datetime="2024-09-02T17:13:53+07:00">02/09/2024</time><time class="updated" datetime="2024-11-12T13:14:18+07:00">12/11/2024</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/after-my-sister-enrolling-volume-1-chapter-4-part-5/" rel="bookmark">After My Sister Enrolling Volume 1 Chapter 4 part 5</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>9 <br> <br> <br> <br>“Just because, I jokingly suggested that I’d like to enter the Ogre’s Great Forest.  <br> <br>I do have genuine interest, but I expected to be opposed, going into the forest of demons where we never know what might be there. <br> <br>However,  <br> <br>Yuzuriha-san and Suzuha readily agreed and even offered to come along.” <br> <br>“If it’s Suzuha’s brother, there should be no problem. Ah, but in case we get surrounded by Ogres, I’ll accompany you and protect your back.” … <a href="/after-my-sister-enrolling-volume-1-chapter-4-part-5/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-565 -->
-
 	<nav class="navigation pagination" aria-label="Posts pagination">
 		<h2 class="screen-reader-text">Posts pagination</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="/category/englishtl/page/85/"><svg class="icon icon-arrow-left" aria-hidden="true" role="img"> <use href="#icon-arrow-left" xlink:href="#icon-arrow-left"></use> </svg><span class="screen-reader-text">Previous page</span></a>
@@ -390,7 +455,7 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 <span aria-current="page" class="page-numbers current"><span class="meta-nav screen-reader-text">Page </span>86</span>
 <a class="page-numbers" href="/category/englishtl/page/87/"><span class="meta-nav screen-reader-text">Page </span>87</a>
 <span class="page-numbers dots">…</span>
-<a class="page-numbers" href="/category/englishtl/page/94/"><span class="meta-nav screen-reader-text">Page </span>94</a>
+<a class="page-numbers" href="/category/englishtl/page/95/"><span class="meta-nav screen-reader-text">Page </span>95</a>
 <a class="next page-numbers" href="/category/englishtl/page/87/"><span class="screen-reader-text">Next page</span><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg></a></div>
 	</nav>
 		</main><!-- #main -->
@@ -410,24 +475,24 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<h2 class="widget-title">Recent Updates</h2><nav aria-label="Recent Updates">
 		<ul>
 											<li>
+					<a href="/the-girl-is-unbeatable-volume-3-prologue/">The Girl is Unbeatable Volume 3 Prologue</a>
+											<span class="post-date">10/02/2026</span>
+									</li>
+											<li>
+					<a href="/mind-reading-detective-volume-1-chapter-3-part-2/">Mind-Reading Detective Volume 1 Chapter 3 part 2</a>
+											<span class="post-date">10/02/2026</span>
+									</li>
+											<li>
+					<a href="/spirit-master-who-is-volume-3-chapter-1-part-1/">Spirit Master Who Is Volume 3 Chapter 1 Part 1</a>
+											<span class="post-date">09/02/2026</span>
+									</li>
+											<li>
+					<a href="/diary-of-romantic-comedy-volume-1-chapter-2-part-2/">Diary of Romantic Comedy Volume 1 Chapter 2 part 2</a>
+											<span class="post-date">09/02/2026</span>
+									</li>
+											<li>
 					<a href="/corpse-king-volume-2-chapter-1-part-1/">Corpse King Volume 2 Chapter 1 part 1</a>
 											<span class="post-date">08/02/2026</span>
-									</li>
-											<li>
-					<a href="/become-the-mastermind-volume-2-chapter-3-part-6/">Become the Mastermind Volume 2 Chapter 3 part 6</a>
-											<span class="post-date">08/02/2026</span>
-									</li>
-											<li>
-					<a href="/so-im-banishing-everyone-volume-1-chapter-1-part-9/">So I’m Banishing Everyone Volume 1 Chapter 1 part 9</a>
-											<span class="post-date">07/02/2026</span>
-									</li>
-											<li>
-					<a href="/how-i-came-to-call-you-natsuki-volume-1-chapter-3-part-6/">How I Came to Call You “Natsuki” Volume 1 Chapter 3 part 6</a>
-											<span class="post-date">07/02/2026</span>
-									</li>
-											<li>
-					<a href="/a-teacher-but-im-feared-as-a-witch-volume-3-chapter-17-afterword/">A Teacher, But I’m Feared as a Witch Volume 3 chapter 17 + Afterword</a>
-											<span class="post-date">07/02/2026</span>
 									</li>
 					</ul>
 
