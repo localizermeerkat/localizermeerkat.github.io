@@ -38,6 +38,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 /*# sourceURL=wp-block-library-inline-css */
 </style>
+<style id="wp-block-footnotes-inline-css">
+.editor-styles-wrapper,.entry-content{counter-reset:footnotes}a[data-fn].fn{counter-increment:footnotes;display:inline-flex;font-size:smaller;text-decoration:none;text-indent:-9999999px;vertical-align:super}a[data-fn].fn:after{content:"[" counter(footnotes) "]";float:left;text-indent:0}
+/*# sourceURL=/wp-includes/blocks/footnotes/style.min.css */
+</style>
 <style id="wp-block-heading-inline-css">
 h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/heading/style.min.css */
@@ -49,10 +53,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id="wp-block-image-theme-inline-css">
 :root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}
 /*# sourceURL=/wp-includes/blocks/image/theme.min.css */
-</style>
-<style id="wp-block-list-inline-css">
-ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
-/*# sourceURL=/wp-includes/blocks/list/style.min.css */
 </style>
 <style id="wp-block-paragraph-inline-css">
 .is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
@@ -152,6 +152,11 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 <link rel="icon" href="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-180x180.jpg">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/05/cropped-01efaedc-d20b-4bb5-b707-7219e4b790f8-270x270.jpg">
+<style id="core-block-supports-inline-css">
+.wp-elements-ffbbd2bde2115948fd0c3561659f7bd9 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--vivid-red);}.wp-elements-843a3693c6075bcd656d8c8542e564d0 a:where(:not(.wp-element-button)){color:#222222;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
 </head>
 
 <body class="archive paged category category-englishtl category-9 wp-embed-responsive paged-72 category-paged-72 wp-theme-twentyseventeen hfeed has-sidebar page-two-column colors-dark">
@@ -189,19 +194,20 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 
 	<div class="menu-top-container"><ul id="top-menu" class="menu"><li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-44"><a href="/">Project List<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
 <ul class="sub-menu">
-	<li id="menu-item-927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-927"><a href="#">#-A<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
+	<li id="menu-item-927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-927"><a href="#">#-B<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
 	<ul class="sub-menu">
 		<li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-926"><a href="/advice-thread-im-a-scientist-for-an-evil-organization-but-my-boss-is-too-unreasonable-and-its-exhausting-ln/">[Advice Thread] I’m a Scientist for an Evil Organization, But My Boss is Too Unreasonable, and It’s Exhausting (LN)</a></li>
 		<li id="menu-item-4011" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4011"><a href="/a-mob-who-died-a-million-times-light-novel/">A Mob Who Died a Million Times (Light Novel)</a></li>
 		<li id="menu-item-3355" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3355"><a href="/a-story-about-a-mob-character-in-a-world-where-magic-and-supernatural-powers-exist-but-whos-treated-as-the-mastermind-behind-the-scenes-ln/">A Story About a Mob Character in a World Where Magic and Supernatural Powers Exist, But Who’s Treated as the Mastermind Behind the Scenes (LN)</a></li>
 		<li id="menu-item-4414" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4414"><a href="/abandoned-corporate-drone-acquires-an-ancient-space-battleship-so-he-switches-jobs-to-become-a-free-spirited-mercenary-and-dominates-the-galaxy-ln/">Abandoned Corporate Drone Acquires an Ancient Space Battleship, So He Switches Jobs to Become a Free-Spirited Mercenary and Dominates the Galaxy! (LN)</a></li>
 		<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-46"><a href="/after-my-sister-enrolling-in-girl-knights-school-i-became-a-hero-ln/">After My Sister Enrolling in Girl Knights’ School, I Became a Hero (LN)</a></li>
+		<li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-400"><a href="/because-i-became-my-oshis-enemy-ln/">Because I became my Oshi’s enemy (LN)</a></li>
 	</ul>
 </li>
-	<li id="menu-item-2972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2972"><a href="#">B-N<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
+	<li id="menu-item-2972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2972"><a href="#">C-N<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
 	<ul class="sub-menu">
-		<li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-400"><a href="/because-i-became-my-oshis-enemy-ln/">Because I became my Oshi’s enemy (LN)</a></li>
 		<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-468"><a href="/the-c-rank-magic-student-who-firmly-believes-hes-sss-rank-ln/">C-level magic student who thinks he is SSS class (LN)</a></li>
+		<li id="menu-item-4866" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4866"><a href="/the-hero-making-classroom-of-a-reborn-nobody-ln/">Hero-making Classroom of a Reborn Nobody (LN)</a></li>
 		<li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1052"><a href="/i-tell-you-monster-ln/">I Tell You Monster. (LN)</a></li>
 		<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-881"><a href="/in-a-world-where-strength-is-ranked/">In a world where strength is ranked, I, a high school teacher, was transported along with my students and rose from a mere side character to the rank of Sword Saint (LN)</a></li>
 		<li id="menu-item-2517" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2517"><a href="/mind-reading-detective-kanako-oba-is-kinda-dumb-i-can-easily-identify-the-culprit-thanks-to-my-mind-reading-but-i-have-no-idea-how-to-prove-it/">Mind-Reading Detective: Kanako Ōba Is Kinda Dumb : I Can Easily Identify the Culprit Thanks to My Mind Reading, But I Have No Idea How to Prove It</a></li>
@@ -257,6 +263,87 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<main id="main" class="site-main">
 
 					
+<article id="post-1882" class="post-1882 post type-post status-publish format-standard hentry category-corpse-king">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/1882-2/" rel="bookmark"><time class="entry-date published" datetime="2025-04-10T02:36:22+07:00">10/04/2025</time><time class="updated" datetime="2026-01-16T03:47:42+07:00">16/01/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/1882-2/" rel="bookmark">Corpse King Light Novel Illustrations</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p></p>
+
+
+
+<p class="has-large-font-size"><strong>VOLUME 1</strong></p>
+
+
+
+<p style="font-size:2px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="/1882-2/"><img decoding="async" src="https://m.media-amazon.com/images/I/81LjtL6jAkL._SL1500_.jpg" alt=""></a></figure>
+
+
+
+<p style="font-size:2px">This is the standard Lorem Ipsum passage, used as placeholder text since the 1500s.… <a href="/1882-2/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/1882-2/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/1882-2/2/" class="post-page-numbers"><span class="page-number">2</span></a></div>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-1882 -->
+
+<article id="post-1877" class="post-1877 post type-post status-publish format-standard hentry category-announcement category-corpse-king">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/return-of-the-corpse-king-i-a-former-hero-am-summoned-back-to-another-world-to-stop-the-chuunibyou-secret-society-i-created/" rel="bookmark"><time class="entry-date published" datetime="2025-04-10T02:34:33+07:00">10/04/2025</time><time class="updated" datetime="2026-04-08T08:03:08+07:00">08/04/2026</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/return-of-the-corpse-king-i-a-former-hero-am-summoned-back-to-another-world-to-stop-the-chuunibyou-secret-society-i-created/" rel="bookmark">Return of the Corpse King I, a Former Hero, Am Summoned Back to Another World to Stop the Chuunibyou Secret Society I Created  (LN)</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p class="has-text-align-center has-large-font-size"><strong>VOLUME 1</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://m.media-amazon.com/images/I/81LjtL6jAkL._SL1500_.jpg" alt=""></figure>
+
+
+
+<p><strong><a href="https://www.amazon.co.jp/-/en/Sty/dp/4046833734">Amazon Link</a></strong></p>
+
+
+
+<p><strong>SYPNOSIS:</strong></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>Resummoned with My Former Chuunibyou Revived? The Birth of an Embarrassing Dark History Comedy in Another World!</p>
+
+
+
+<p>“How could my past self have done such embarrassing things with such enthusiasm?!”</p>
+
+
+
+<p>Nisaki Shio, a hero who was summoned to another world in his third year of middle school and saved it. After defeating the Demon King and being forcibly returned to the modern world, three years later, he is summoned to the other world again—to stop the rampage of the secret society “Helheim.”… <a href="/return-of-the-corpse-king-i-a-former-hero-am-summoned-back-to-another-world-to-stop-the-chuunibyou-secret-society-i-created/" class="read-more">Read more </a></p><div class="page-links">Pages: <a href="/return-of-the-corpse-king-i-a-former-hero-am-summoned-back-to-another-world-to-stop-the-chuunibyou-secret-society-i-created/" class="post-page-numbers"><span class="page-number">1</span></a> <a href="/return-of-the-corpse-king-i-a-former-hero-am-summoned-back-to-another-world-to-stop-the-chuunibyou-secret-society-i-created/2/" class="post-page-numbers"><span class="page-number">2</span></a></div>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-1877 -->
+
+<article id="post-1781" class="post-1781 post type-post status-publish format-standard hentry category-englishtl category-sss">
+		<header class="entry-header">
+		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/c-level-magic-student-volume-1-chapter-12-part-3/" rel="bookmark"><time class="entry-date published" datetime="2025-04-10T00:01:00+07:00">10/04/2025</time><time class="updated" datetime="2025-04-07T16:27:08+07:00">07/04/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/c-level-magic-student-volume-1-chapter-12-part-3/" rel="bookmark">C-level magic student Volume 1  Chapter 12 part 3</a></h2>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p>Therefore, the Black Annihilation Dragon chose to use his silver tongue to confirm the facts.<br> <br>— Even if I point out his lack of strength, it would be meaningless if he realizes it’s just a wild guess… To shake his heart, I need to act as if I know everything. — I have no choice but to show it. The world’s strongest dragon’s finest oratory skills!!<br> <br>And so, the Black Annihilation Dragon made his move.<br> <br>“Kah kah kah……”<br> <br>Facing his greatest enemy, the Black Annihilation Dragon let out a chuckling laugh.… <a href="/c-level-magic-student-volume-1-chapter-12-part-3/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-1781 -->
+
 <article id="post-1754" class="post-1754 post type-post status-publish format-standard hentry category-englishtl category-oshi">
 		<header class="entry-header">
 		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/my-oshis-enemy-volume-1-chapter-10/" rel="bookmark"><time class="entry-date published" datetime="2025-04-09T00:01:00+07:00">09/04/2025</time><time class="updated" datetime="2025-04-07T16:27:01+07:00">07/04/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/my-oshis-enemy-volume-1-chapter-10/" rel="bookmark">My Oshi’s Enemy Volume 1 Chapter 10</a></h2>	</header><!-- .entry-header -->
@@ -350,55 +437,6 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 	
 </article><!-- #post-1636 -->
 
-<article id="post-1617" class="post-1617 post type-post status-publish format-standard hentry category-englishtl category-labyrinth">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-epilogue/" rel="bookmark"><time class="entry-date published" datetime="2025-03-28T00:01:00+07:00">28/03/2025</time><time class="updated" datetime="2025-03-05T10:21:57+07:00">05/03/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-epilogue/" rel="bookmark">Thus, the Boy Runs Through the Labyrinth Volume 1 Epilogue</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<h3 class="wp-block-heading">Final Chapter</h3>
-
-
-
-<h4 class="wp-block-heading">In Front of the Main Gate of the Sin City State of Greed</h4>
-
-
-
-<p> <br>It was a clear, sunny day.<br> <br>The sun god was high in the sky, shining brightly upon the land. Ur stretched his body, soaking up the sunlight, and exhaled deeply.<br> <br>“What a beautiful day.”<br> <br>“Indeed, it is,”<br> <br>Shizuku responded with a smile, and Ur nodded in agreement.<br> <br>“A perfect day for a journey.”<br> <br>They had both earned their bronze rings.… <a href="/thus-the-boy-runs-through-the-labyrinth-volume-1-epilogue/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-1617 -->
-
-<article id="post-1597" class="post-1597 post type-post status-publish format-standard hentry category-englishtl category-sister-knight">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/after-my-sister-enrolling-volume-2-chapter-3-part-2/" rel="bookmark"><time class="entry-date published" datetime="2025-03-27T00:01:00+07:00">27/03/2025</time><time class="updated" datetime="2025-04-06T16:54:19+07:00">06/04/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/after-my-sister-enrolling-volume-2-chapter-3-part-2/" rel="bookmark">After My Sister Enrolling Volume 2 Chapter 3 part 2</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<p>2<br> </p>
-
-
-
-<p>Just as Yuzuriha predicted, Toko arrived much earlier than scheduled.<br> <br>Right after Toko’s arrival, security troops for the signing ceremony started showing up, then government officials, chefs and maids for the subsequent party, and even fashion designers to tailor party dresses—a huge help.<br> <br>Upon hearing our explanation, Toko was clutching her head in exasperation.<br> <br>“No, no, no, this is crazy…! The discovery of orichalcum alone would shake the entire continent, but an exposed vein of it!?… <a href="/after-my-sister-enrolling-volume-2-chapter-3-part-2/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-1597 -->
-
-<article id="post-1711" class="post-1711 post type-post status-publish format-standard hentry category-englishtl category-spirit-master">
-		<header class="entry-header">
-		<div class="entry-meta"><span class="screen-reader-text">Posted on</span> <a href="/spirit-master-who-is-volume-2-chapter-2-part-1/" rel="bookmark"><time class="entry-date published" datetime="2025-03-26T00:01:00+07:00">26/03/2025</time><time class="updated" datetime="2025-04-07T16:50:52+07:00">07/04/2025</time></a></div><!-- .entry-meta --><h2 class="entry-title"><a href="/spirit-master-who-is-volume-2-chapter-2-part-1/" rel="bookmark">Spirit Master Who Is Volume 2 Chapter 2 part 1</a></h2>	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<h3 class="wp-block-heading">Chapter 2: The Intruder</h3>
-
-
-
-<p>Time passed, and it was after school.<br> <br>While many students were heading to the arena for the ranking match, I was making my way to the student council room. On the way, I ran into a junior I wasn’t particularly eager to meet.<br> <br>“Ah, Rourke-senpai.”<br> <br>“Ugh.”<br> <br>“That reaction hurts, senpai.”<br> <br>I couldn’t help but grimace, and my junior, Tsukikage Akari, expressed her dissatisfaction, though her expression didn’t match her words.… <a href="/spirit-master-who-is-volume-2-chapter-2-part-1/" class="read-more">Read more </a></p>	</div><!-- .entry-content -->
-
-	
-</article><!-- #post-1711 -->
-
 	<nav class="navigation pagination" aria-label="Posts pagination">
 		<h2 class="screen-reader-text">Posts pagination</h2>
 		<div class="nav-links"><a class="prev page-numbers" href="/category/englishtl/page/71/"><svg class="icon icon-arrow-left" aria-hidden="true" role="img"> <use href="#icon-arrow-left" xlink:href="#icon-arrow-left"></use> </svg><span class="screen-reader-text">Previous page</span></a>
@@ -428,6 +466,14 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 		<h2 class="widget-title">Recent Updates</h2><nav aria-label="Recent Updates">
 		<ul>
 											<li>
+					<a href="/hero-making-classroom-volume-1-chapter-1-part-1/">Hero-making Classroom Volume 1 Chapter 1 part 1</a>
+											<span class="post-date">25/04/2026</span>
+									</li>
+											<li>
+					<a href="/a-teacher-but-im-feared-as-a-witch-volume-4-chapter-2-part-1/">A Teacher, But I’m Feared as a Witch Volume 4 chapter 2 part 1</a>
+											<span class="post-date">25/04/2026</span>
+									</li>
+											<li>
 					<a href="/hero-making-classroom-volume-1-prologue/">Hero-making Classroom Volume 1 Prologue</a>
 											<span class="post-date">24/04/2026</span>
 									</li>
@@ -438,14 +484,6 @@ var twentyseventeenScreenReaderText = {"quote":"\u003Csvg class=\"icon icon-quot
 											<li>
 					<a href="/the-hero-making-classroom-of-a-reborn-nobody-ln/">The Hero-making Classroom of a Reborn Nobody (LN)</a>
 											<span class="post-date">24/04/2026</span>
-									</li>
-											<li>
-					<a href="/spirit-master-who-is-volume-3-chapter-2-part-1/">Spirit Master Who Is Volume 3 Chapter 2 part 1</a>
-											<span class="post-date">24/04/2026</span>
-									</li>
-											<li>
-					<a href="/it-turned-into-a-battlefield-volume-1-chapter-3-part-5/">It Turned Into a Battlefield Volume 1 Chapter 3 part 5</a>
-											<span class="post-date">23/04/2026</span>
 									</li>
 					</ul>
 
